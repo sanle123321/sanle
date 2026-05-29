@@ -7,7 +7,7 @@ load_dotenv() # 从.env文件中读取内容
 
 client = OpenAI(
     api_key=os.getenv("API_KEY"),
-    base_url=os.getenv("BASE_URL"),
+    base_url=os.getenv("https://api.deepseek.com"),
     ) # 创建一个OpenAI对象,用于连接LLM
 
 #----------------------------------页面--------------------------
